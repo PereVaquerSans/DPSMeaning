@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+<title>Diluc</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta charset="UTF-8">
   <style>
@@ -35,6 +36,7 @@
       color: rgb(48, 0, 0);
       background-color: rgba(255, 50, 30, 0.5);
       backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
       margin: 30px;
       padding: 30px;
@@ -87,7 +89,7 @@
 </head>
 <body>
   <div class="btn">
-  <button id="botonMostrar" onclick="showStory()">Múestrame la historia</button>
+  <button type="button" id="botonMostrar" onclick="showStory()">Múestrame la historia</button>
   </div>
   <h1 id="title"></h1>
   <pre id="story"></pre>
